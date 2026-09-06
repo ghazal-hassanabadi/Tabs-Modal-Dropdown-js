@@ -108,7 +108,23 @@ const dropdownList = document.querySelector("#dropdownList")
 const dropdownBtn = document.querySelector("#dropdownBtn")
 
 
+dropdownBtn.addEventListener("click" , 
+  function(){
 
+    
+    dropdownList.classList.toggle("active")
+  }
+)
+
+
+document.addEventListener ("click" , 
+  function(e){
+    if(!dropdownWrapper.contains(e.target)){
+
+      dropdownList.classList.remove("active");
+    }
+  }
+)
 
 
 
