@@ -84,4 +84,21 @@ modalOverlay.addEventListener("click",
 )
 
 
+document.addEventListener ("keydown" , 
+  function(e){
+
+    if (e.key === "Escape"){
+
+          modalOverlay.classList.add("hidden");
+          modalBox.classList.add("hidden");
+    }
+
+   
+  }
+)
+
+
+
+
+
 
