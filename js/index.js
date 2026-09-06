@@ -53,8 +53,35 @@ const modalOverlay = document.querySelector("#modalOverlay")
 
 
 
+openModalBtn.addEventListener("click", 
+  function(){
+
+    modalOverlay.classList.remove("hidden");
+    modalBox.classList.remove("hidden");
 
 
+  }
+)
+
+
+closeModalBtn.addEventListener("click", 
+  function(){ 
+
+    modalOverlay.classList.add("hidden");
+    modalBox.classList.add("hidden");
+    
+  }
+)
+
+
+modalOverlay.addEventListener("click", 
+  function(){
+
+    modalOverlay.classList.add("hidden");
+    modalBox.classList.add("hidden");
+    
+  }
+)
 
 
 
