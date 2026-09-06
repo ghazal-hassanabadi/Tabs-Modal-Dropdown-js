@@ -40,5 +40,21 @@ const tabSection = document.querySelectorAll("#tab1, #tab2, #tab3");
 });
 
 
+/**----------------Modal------------- */
+
+const openModalBtn = document.querySelector("#openModalBtn")
+
+const closeModalBtn = document.querySelector("#closeModalBtn")
+
+
+const modalBox = document.querySelector("#modalBox")
+
+const modalOverlay = document.querySelector("#modalOverlay")
+
+
+
+
+
+
 
 
