@@ -102,3 +102,56 @@ h3 {
 
 
 
+/*---------------------- Modal ---------------------*/
+
+
+
+#openModalBtn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+#openModalBtn:hover {
+    background-color: var(--primary-color-hover);
+}
+
+
+
+#modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modalBox {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 24px;
+    border: none;
+    border-radius: 12px;
+    z-index: 10;
+    max-width: 400px;
+   width: 90%;
+}
+
+#modalBox.hidden,
+#modalOverlay.hidden {
+    display: none;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+
+
