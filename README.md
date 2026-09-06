@@ -17,7 +17,7 @@
 ## مفاهیمی که تمرین شده
 
 - متدهای `classList.add()`، `classList.remove()`، `classList.toggle()`
-- الگوی Event Delegation (گذاشتن یه listener روی والد به‌جای چندین listener روی فرزندها)
+- الگوی Event Delegation 
 - مدیریت حالت‌های خاص (کلیک بیرون از یه کامپوننت، رویدادهای کیبورد، کلیک‌های نامعتبر)
 - متغیرهای CSS (`:root`) برای تم‌بندی
 - طراحی ریسپانسیو با media query
