@@ -25,3 +25,80 @@ body {
 }
 
 
+/*------------Tab-----------*/
+
+.tab {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.tablinks {
+    padding: 10px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.tablinks:hover {
+    border-color: var(--primary-color);
+}
+
+.tablinks.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+#tab1,
+#tab2,
+#tab3 {
+    display: none;
+    max-width: 500px;
+    width: 100%;
+    line-height: 1.8;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px black;
+}
+
+#tab1.active,
+#tab2.active,
+#tab3.active {
+    display: block;
+}
+
+h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 24px 12px;
+    }
+
+    .tablinks {
+        flex: 1;
+        text-align: center;
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    #tab1,
+    #tab2,
+    #tab3 {
+        padding: 16px;
+    }
+}
+
+
+
