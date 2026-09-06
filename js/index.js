@@ -100,5 +100,17 @@ document.addEventListener ("keydown" ,
 
 
 
+/*-------------------Dropdown---------------*/
+
+
+const dropdownWrapper = document.querySelector("#dropdownWrapper")
+const dropdownList = document.querySelector("#dropdownList")
+const dropdownBtn = document.querySelector("#dropdownBtn")
+
+
+
+
+
+
 
 
